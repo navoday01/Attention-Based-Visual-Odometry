@@ -122,10 +122,14 @@ def test(model,test_loader):
 
        
         loss = mse(pose_pred,pose)
-
+        
+        if(pose_vec_pred.isnan().any()==1):
+          continue
+        
+        
         sys.stdout.write('\r'+str(idx+1)+"/"+str(len(test_loader))+" completed, Test Loss: "+str(format(loss.item(),".2f"))+", Translation Loss: "+str(format(loss_t.item(),".2f"))+", Angle Loss: "+str(format(loss_a.item(),".2f")))
 
-        if(pose_vec_pred.isnan().any()==0):
+        if(pose_vec_pred.isnan().any()==1):
           lt.append(loss_t.item())
           la.append(loss_a.item())
           l.append(loss.item())
