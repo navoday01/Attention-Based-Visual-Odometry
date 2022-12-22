@@ -62,6 +62,7 @@ To test the model for the NYU sparse dataset
 ```shell
 python3 test.py <Path to NYU sparse dataset folder> 5metrotech
 ```
+example: python3 test.py /home/NYUsparse 5metrotech
 
 
 ## 📊 Results
