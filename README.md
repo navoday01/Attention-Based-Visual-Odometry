@@ -16,7 +16,7 @@ To download the entire dataset follow [OFFICIAL LINK](https://www.microsoft.com/
 
 ### NYU sparse dataset
 Similarly, NYU sparse dataset is a collection of tracked RGB-D camera frames in featureless environment of 5 Metrotech.
-![Alt text](assets/Floorplan.png)
+![Alt text](assets/with 3D basement.png)
  :--:
   
  ![Alt text](assets/NYC-sparse-dataset.png)
