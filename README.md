@@ -42,7 +42,7 @@ python3 training.py
 ```
 ## 🖼 Testing
 
- To test the model, run `test.py` and the predicited camera poses along with the actual camera poses get saved as a .csv file.
+ To test the model, run `test.py` and the predicited camera poses along with the actual camera poses get saved as a .csv file. The .csv file can be used to vizualize the camera trajectory.
 ```shell
 python3 test.py
 ```
