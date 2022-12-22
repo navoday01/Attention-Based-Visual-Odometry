@@ -6,6 +6,7 @@ The proposed model has been tested in a variety of scenarios and has shown robus
 
 ## 💽 Dataset
 ### 7Scenes
+Microsoft 7Scenes dataset contains RGB Images, Depth Map
 
  ![Alt text](assets/7-scenes-7-scenes-overview.png)
  :--:
