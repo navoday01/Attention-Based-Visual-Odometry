@@ -30,7 +30,6 @@ git clone https://github.com/navoday01/ResNet5M-CIFAR10.git
 ```
 
 ## 📉 Tenserboard
-
 ```shell
 tensorboard --logdir runs/
 ```
