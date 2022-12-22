@@ -7,6 +7,7 @@ The proposed model has been tested in a variety of scenarios and has shown robus
 ## 💽 Dataset
 ### 7Scenes
 The 7-Scenes dataset is a collection of tracked RGB-D camera frames.
+To download the entire dataset follow [LINK](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/)
 
  ![Alt text](assets/7-scenes-7-scenes-overview.png)
  :--:
