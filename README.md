@@ -45,14 +45,14 @@ Run train script `training.py` to recreate similar model.
 ```shell
 python3 training.py <Path to 7Scenes dataset folder> <Scene for Training>
 ```
-example: python3 training.py /7scenes heads
+example: python3 training.py /home/7scenes heads
 ## 🖼 Testing
 
  To test the model, run `test.py` and the predicited camera poses along with the actual camera poses get saved as a .csv file. The .csv file can be used to vizualize the camera trajectory.
 ```shell
 python3 test.py <Path to 7Scenes dataset folder> <Scene for Testing>
 ```
-example: python3 test.py /7scenes heads
+example: python3 test.py /home/7scenes heads
 
 
 ## 📊 Results
