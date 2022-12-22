@@ -29,7 +29,7 @@ pip3 install torch torchvision torchaudio torchinfo tensorboard matplotlib numpy
 ```shell
 git clone https://github.com/navoday01/Attention-Based-Visual-Odometry.git
 ```
-3. [Download] (https://drive.google.com/uc?export=download&id=1dhdH5g1XCGnFbvOj5OOUY3YHaCO4RIIf) Model and paste inside Attention-Based-Visual-Odometry folder.
+3. [Download](https://drive.google.com/uc?export=download&id=1dhdH5g1XCGnFbvOj5OOUY3YHaCO4RIIf) Model and paste inside Attention-Based-Visual-Odometry folder.
 
 ## 📉 Tensorboard
 To view the losses use Tensorboard to visualize the graphs
