@@ -91,7 +91,7 @@ Benchmarks of our method against other state of the art methods.
 
 ## 📑 Report
 
-A detailed [REPORT](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/) can be read to understand our algorithm.
+A detailed [REPORT](https://github.com/navoday01/Attention-Based-Visual-Odometry/blob/main/Attention_based_Visual_Odometry.pdf) can be read to understand our algorithm.
 
 
 ## 📦 Conclusion
