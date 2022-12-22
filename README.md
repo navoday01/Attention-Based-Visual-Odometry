@@ -22,7 +22,7 @@ Similarly, NYU sparse dataset is a collection of tracked RGB-D camera frames in 
 
 1. Install all the requirements (PyTorch v1.13.0)
 ```shell
-pip3 install torch torchvision torchaudio torchinfo tensorboard
+pip3 install torch torchvision torchaudio torchinfo tensorboard matplotlib numpy pandas opencv-python 
 ```
 2. Clone the GitHub repository
 ```shell
