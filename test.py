@@ -17,12 +17,12 @@ if(len(sys.argv)==1):
   print("Path of the dataset is not given")
   exit()
 elif(len(sys.argv)==2):
-  print("Scene was not selected, fire scene is selected by default")  
+  print("Scene was not selected, heads scene is selected by default")  
 
 data_dir = sys.argv[1]
 
 if(len(sys.argv)==2):
-  scene = 'fire'
+  scene = 'heads'
 else:
   scene =  sys.argv[2] 
 
