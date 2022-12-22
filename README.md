@@ -22,6 +22,10 @@ Similarly, NYU sparse dataset is a collection of tracked RGB-D camera frames in 
 [Download](https://drive.google.com/uc?export=download&id=1dhdH5g1XCGnFbvOj5OOUY3YHaCO4RIIf) NYU sparse dataset
 [Download](https://drive.google.com/uc?export=download&id=1H_JrvroG4v_MMUqWKM0P57lNYYE2droc) NYU sparse dataset(ROS bag file)
 
+![Alt text](assets/Floorplan.png)
+ :--:
+  *NYU Sparse Dataset*
+
 ## ⚙️ Setup
 
 1. Install all the requirements (PyTorch v1.13.0)
