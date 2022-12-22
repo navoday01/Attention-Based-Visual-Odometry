@@ -28,7 +28,7 @@ pip3 install torch torchvision torchaudio torchinfo tensorboard matplotlib numpy
 ```shell
 git clone https://github.com/navoday01/ResNet5M-CIFAR10.git
 ```
-3. Download model from [LINK]([https://github.com/navoday01/ResNet5M-CIFAR10/blob/main/models/weights/Resnet20SGD.pt](https://drive.google.com/uc?export=download&id=1dhdH5g1XCGnFbvOj5OOUY3YHaCO4RIIf)) and paste inside.
+3. Download [model]([https://github.com/navoday01/ResNet5M-CIFAR10/blob/main/models/weights/Resnet20SGD.pt](https://drive.google.com/uc?export=download&id=1dhdH5g1XCGnFbvOj5OOUY3YHaCO4RIIf)) and paste inside.
 
 ## 📉 Tensorboard
 To view the losses use Tensorboard to visualize the graphs
