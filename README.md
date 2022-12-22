@@ -32,15 +32,15 @@ git clone https://github.com/navoday01/ResNet5M-CIFAR10.git
 ## 🏁 Tenserboard
 
 ## ⏳ Training
-Run train script `Train.py` to recreate similar model
+Run train script `training.py` to recreate similar model
 ```shell
-python3 ResNetTrain.py
+python3 training.py
 ```
 ## 🖼 Testing
 
- To Reproduce the accuracy of the model, run `Test.py` and **ensure the model is on the right folder and change the path in the file.** This script will normalise the images to right value.
+ To Reproduce the accuracy of the model, run `test.py` and **ensure the model is on the right folder and change the path in the file.** This script will normalise the images to right value.
 ```shell
-python3 FinalTesting.py
+python3 test.py
 ```
 
 
