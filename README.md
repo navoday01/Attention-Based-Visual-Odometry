@@ -25,6 +25,7 @@ Similarly, NYU sparse dataset is a collection of tracked RGB-D camera frames in 
 
 ![Alt text](assets/with-3D-basement.png)
  :--:
+ *Visualization of Sparse Environment*
 
 ## ⚙️ Setup
 
