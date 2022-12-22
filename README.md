@@ -6,7 +6,7 @@ The proposed model has been tested in a variety of scenarios and has shown robus
 
 ## 💽 Dataset
 ### 7Scenes
-Microsoft 7Scenes dataset contains RGB Images, Depth Map
+The 7-Scenes dataset is a collection of tracked RGB-D camera frames.
 
  ![Alt text](assets/7-scenes-7-scenes-overview.png)
  :--:
