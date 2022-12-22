@@ -74,8 +74,7 @@ python3 test.py <Path to 7Scenes dataset folder> 5metrotech
  :--:
   *Trajectory* 
 
-:--:
-  *Benchmarks*
+###Benchmarks
 | **Scene** |   **SCoRe Forest**    |  **DSAC**  |  **VLocNet++**  |  **NNnet**  |  **PoseNet2**  |  **Ours**  |
 |:--------:|:------------------:|:----------------------------:|:------------:|:----------:|:-------------:|:-------------:|
 |  Chess |  0.03m, **0.66°**     |     0.03m, **0.66°**       |    **0.0018m**, 1.17°    |   0.13m, 6.66°  |  0.13m, 4.48°    | 0.01m, 3.35° |
