@@ -11,7 +11,7 @@ The 7-Scenes dataset is a collection of tracked RGB-D camera frames.
  ![Alt text](assets/7-scenes-7-scenes-overview.png)
  :--:
   *7Scenes* 
- To download the 7Scenes dataset 
+[Download] the 7Scenes dataset 
 
 ### NYU sparse dataset
 Similarly, NYU sparse dataset is a collection of tracked RGB-D camera frames in featureless environment of 5 Metrotech.
@@ -29,7 +29,7 @@ pip3 install torch torchvision torchaudio torchinfo tensorboard matplotlib numpy
 ```shell
 git clone https://github.com/navoday01/Attention-Based-Visual-Odometry.git
 ```
-3. Download [Model](https://drive.google.com/uc?export=download&id=1dhdH5g1XCGnFbvOj5OOUY3YHaCO4RIIf) and paste inside Attention-Based-Visual-Odometry folder.
+3. [Download] (https://drive.google.com/uc?export=download&id=1dhdH5g1XCGnFbvOj5OOUY3YHaCO4RIIf) Model and paste inside Attention-Based-Visual-Odometry folder.
 
 ## 📉 Tensorboard
 To view the losses use Tensorboard to visualize the graphs
