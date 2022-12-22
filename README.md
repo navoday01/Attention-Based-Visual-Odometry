@@ -26,9 +26,9 @@ pip3 install torch torchvision torchaudio torchinfo tensorboard matplotlib numpy
 ```
 2. Clone the GitHub repository
 ```shell
-git clone https://github.com/navoday01/ResNet5M-CIFAR10.git
+git clone https://github.com/navoday01/Attention-Based-Visual-Odometry.git
 ```
-3. Download[LINK](https://github.com/navoday01/ResNet5M-CIFAR10/blob/main/models/weights/ResnetBn.pt) and paste inside.
+3. Download [Model](https://drive.google.com/uc?export=download&id=1dhdH5g1XCGnFbvOj5OOUY3YHaCO4RIIf) and paste inside Attention-Based-Visual-Odometry.
 
 ## 📉 Tensorboard
 To view the losses use Tensorboard to visualize the graphs
@@ -39,13 +39,13 @@ tensorboard --logdir runs/
 ## ⏳ Training
 Run train script `training.py` to recreate similar model.
 ```shell
-python3 training.py <Path to 7scenes folder> <Scene to train on>
+python3 training.py
 ```
 ## 🖼 Testing
 
  To test the model, run `test.py` and the predicited camera poses along with the actual camera poses get saved as a .csv file. The .csv file can be used to vizualize the camera trajectory.
 ```shell
-python3 test.py <Path to 7scenes folder> <Scene to test on>
+python3 test.py
 ```
 
 
