@@ -29,7 +29,8 @@ pip3 install torch torchvision torchaudio torchinfo tensorboard matplotlib numpy
 git clone https://github.com/navoday01/ResNet5M-CIFAR10.git
 ```
 
-## 📉 Tenserboard
+## 📉 Tensorboard
+To view the losses use Tensorboard to visualize the graphs
 ```shell
 tensorboard --logdir runs/
 ```
