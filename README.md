@@ -4,6 +4,8 @@ In this project, we are developing a novel artificial neural network model that 
 The resulting output of the model is a prediction of the odometry value, which represents the movement of the camera or object. 
 The proposed model has been tested in a variety of scenarios and has shown robust performance in unknown and cluttered environments.
 
+## 💽 Dataset
+
  ![Alt text](assets/7-scenes-7-scenes-overview.png)
  :--:
   *7Scenes* 
