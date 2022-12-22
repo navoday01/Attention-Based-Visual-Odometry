@@ -18,7 +18,7 @@ Similarly, NYU sparse dataset is a collection of tracked RGB-D camera frames in 
  ![Alt text](assets/NYC-sparse-dataset.png)
  :--:
   *NYU Sparse Dataset*
-[Download](https://drive.google.com/uc?export=download&id=1dhdH5g1XCGnFbvOj5OOUY3YHaCO4RIIf) NYU sparse dataset.
+[Download](https://drive.google.com/uc?export=download&id=1dhdH5g1XCGnFbvOj5OOUY3YHaCO4RIIf) NYU sparse dataset
 [Download](https://drive.google.com/uc?export=download&id=1dhdH5g1XCGnFbvOj5OOUY3YHaCO4RIIf) NYU sparse dataset(ROS bag file)
 
 ## ⚙️ Setup
