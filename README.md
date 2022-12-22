@@ -14,6 +14,6 @@ The 7-Scenes dataset is a collection of tracked RGB-D camera frames.
 
 ### NYU sparse dataset
 Similarly, NYU sparse dataset is a collection of tracked RGB-D camera frames.
- ![Alt text](assets/7-scenes-7-scenes-overview.png)
+ ![Alt text](assets/NYC-sparse-dataset.png)
  :--:
-  *7Scenes* 
+  *NYU Sparse Dataset* 
