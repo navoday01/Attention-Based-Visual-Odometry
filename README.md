@@ -39,13 +39,13 @@ tensorboard --logdir runs/
 ## ⏳ Training
 Run train script `training.py` to recreate similar model.
 ```shell
-python3 training.py
+python3 training.py <Path to 7Scenes dataset folder> <Scene for Training>
 ```
 ## 🖼 Testing
 
  To test the model, run `test.py` and the predicited camera poses along with the actual camera poses get saved as a .csv file. The .csv file can be used to vizualize the camera trajectory.
 ```shell
-python3 test.py
+python3 test.py <Path to 7Scenes dataset folder> <Scene for Testing>
 ```
 
 
