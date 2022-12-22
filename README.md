@@ -7,12 +7,12 @@ The proposed model has been tested in a variety of scenarios and has shown robus
 ## 💽 Dataset
 ### 7Scenes
 The 7-Scenes dataset is a collection of tracked RGB-D camera frames.
-To download the entire dataset follow [OFFICIAL LINK](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/). (**Not Needed**)
+To download the entire dataset follow [OFFICIAL LINK](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/). (**Not Required**)
 
  ![Alt text](assets/7-scenes-7-scenes-overview.png)
  :--:
   *7Scenes* 
-[Download](https://drive.google.com/drive/folders/1v_y4HpT9IifWIbxeZtm9XKjBth6tM5mr?usp=share_link) 7Scenes dataset having "heads" sequence (**Needed**)
+[Download](https://drive.google.com/drive/folders/1v_y4HpT9IifWIbxeZtm9XKjBth6tM5mr?usp=share_link) 7Scenes dataset having "heads" sequence (**Required**)
 
 ### NYU sparse dataset
 Similarly, NYU sparse dataset is a collection of tracked RGB-D camera frames in featureless environment of 5 Metrotech.
@@ -22,8 +22,8 @@ Similarly, NYU sparse dataset is a collection of tracked RGB-D camera frames in 
  ![Alt text](assets/NYC-sparse-dataset.png)
  :--:
   *NYU Sparse Dataset*
-[Download](https://drive.google.com/drive/folders/1zT49fvm58KhV8maMLzybn7Jrsi49X3Je?usp=share_link) NYU sparse dataset (**Needed**)
-[Download](https://drive.google.com/uc?export=download&id=1H_JrvroG4v_MMUqWKM0P57lNYYE2droc) NYU sparse dataset(ROS bag file) (**Not Needed**)
+[Download](https://drive.google.com/drive/folders/1zT49fvm58KhV8maMLzybn7Jrsi49X3Je?usp=share_link) NYU sparse dataset (**Required**)
+[Download](https://drive.google.com/uc?export=download&id=1H_JrvroG4v_MMUqWKM0P57lNYYE2droc) NYU sparse dataset(ROS bag file) (**Not Required**)
 
 
 ## ⚙️ Setup
