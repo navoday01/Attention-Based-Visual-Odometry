@@ -28,7 +28,7 @@ pip3 install torch torchvision torchaudio torchinfo tensorboard matplotlib numpy
 ```shell
 git clone https://github.com/navoday01/Attention-Based-Visual-Odometry.git
 ```
-3. Download [Model](https://drive.google.com/uc?export=download&id=1dhdH5g1XCGnFbvOj5OOUY3YHaCO4RIIf) and paste inside Attention-Based-Visual-Odometry.
+3. Download [Model](https://drive.google.com/uc?export=download&id=1dhdH5g1XCGnFbvOj5OOUY3YHaCO4RIIf) and paste inside Attention-Based-Visual-Odometry folder.
 
 ## 📉 Tensorboard
 To view the losses use Tensorboard to visualize the graphs
@@ -39,13 +39,13 @@ tensorboard --logdir runs/
 ## ⏳ Training
 Run train script `training.py` to recreate similar model.
 ```shell
-python3 training.py <Path to 7scenes folder> <Scene for Training>
+python3 training.py
 ```
 ## 🖼 Testing
 
  To test the model, run `test.py` and the predicited camera poses along with the actual camera poses get saved as a .csv file. The .csv file can be used to vizualize the camera trajectory.
 ```shell
-python3 test.py <Path to 7scenes folder> <Scene for Testing>
+python3 test.py
 ```
 
 
