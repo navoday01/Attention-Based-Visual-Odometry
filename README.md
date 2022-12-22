@@ -78,6 +78,7 @@ Trajectory can be plotted using the .csv file, the plotting graphs are easy to g
   *Trajectory* 
 
 ## 📶 Benchmarks
+Benchmarks of our method against other state of the art methods.
 | **Scene** |   **SCoRe Forest**    |  **DSAC**  |  **VLocNet++**  |  **NNnet**  |  **PoseNet2**  |  **Ours**  |
 |:--------:|:------------------:|:----------------------------:|:------------:|:----------:|:-------------:|:-------------:|
 |  Chess |  0.03m, **0.66°**     |     0.03m, **0.66°**       |    **0.0018m**, 1.17°    |   0.13m, 6.66°  |  0.13m, 4.48°    | 0.01m, 3.35° |
