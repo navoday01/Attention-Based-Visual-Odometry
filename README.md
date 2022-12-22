@@ -54,6 +54,11 @@ python3 test.py <Path to 7Scenes dataset folder> <Scene for Testing>
 ```
 example: python3 test.py /home/7scenes heads
 
+To test the model for the NYU sparse dataset
+```shell
+python3 test.py <Path to 7Scenes dataset folder> 5metrotech
+```
+
 
 ## 📊 Results
 
