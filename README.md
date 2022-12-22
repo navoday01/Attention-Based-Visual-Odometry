@@ -7,12 +7,12 @@ The proposed model has been tested in a variety of scenarios and has shown robus
 ## 💽 Dataset
 ### 7Scenes
 The 7-Scenes dataset is a collection of tracked RGB-D camera frames.
-To download the entire dataset follow [LINK](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/)
+To download the entire dataset follow [LINK](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/).
 
  ![Alt text](assets/7-scenes-7-scenes-overview.png)
  :--:
   *7Scenes* 
-[Download](https://drive.google.com/uc?export=download&id=1dhdH5g1XCGnFbvOj5OOUY3YHaCO4RIIf) 7Scenes dataset
+[Download](https://drive.google.com/uc?export=download&id=1dhdH5g1XCGnFbvOj5OOUY3YHaCO4RIIf) 7Scenes dataset having "heads" sequence
 
 ### NYU sparse dataset
 Similarly, NYU sparse dataset is a collection of tracked RGB-D camera frames in featureless environment of 5 Metrotech.
