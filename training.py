@@ -11,9 +11,23 @@ import torch.nn as nn
 import time
 import sys
 
-device = 'cuda:3'
-data_dir = '/data/hari/poseEstimation_ws/src/sfm/7scenes'
-scene = 'allScenes'
+device = 'cuda'
+
+
+if(len(sys.argv)==1):
+  print("Path of the dataset is not given")
+  exit()
+elif(len(sys.argv)==2):
+  print("Scene was not selected, fire scene is selected by default")  
+
+data_dir = sys.argv[1]
+
+if(len(sys.argv)==2):
+  scene = 'fire'
+else:
+  scene =  sys.argv[2] 
+
+
 num_workers = 1
 writer = SummaryWriter()
 
@@ -188,3 +202,4 @@ for t in range(E):
     print('Avg. Training Loss =', format(tl,".2f"),'Position Training Loss =', format(tl1,".2f"),'Rotation Training Loss =', format(tl2,".2f"),'Avg. Validation Loss =', format(val_tl,".2f"),'Position Validation Loss =', format(val_tl1,".2f"), 'Rotation Validation Loss =', format(val_tl2,".2f"),'Time = %.2f' %(t2-t1),'s')
     save_models(val_tl,True)
 writer.flush()
+
