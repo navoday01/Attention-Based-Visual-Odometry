@@ -64,6 +64,7 @@ python3 test.py <Path to NYU sparse dataset folder> 5metrotech
 ```
 example: python3 test.py /home/NYUsparse 5metrotech
 
+Losses are not visualized here but instead used only to generate the trajectory. The losses for each frame get printed on the console if users are curious of the model's performance. 
 
 ## 📊 Results
 
