@@ -89,6 +89,11 @@ Benchmarks of our method against other state of the art methods.
 |RedKitchen|  0.04m, **0.76°**      |     0.05m, 2.00°    |    **0.0017m**, 0.93°   |   0.24m, 8.03°  |  0.23m, 5.35°    |  0.21m, 4.34°        |
 |  Stairs  |  0.32m, 1.32°      |     1.17m, 33.1°    |   **0.010m**, **0.48°**   |   0.27m, 11.28°  |  0.35m, 12.4°    |  0.011m, 2.89°        |
 
+## 📑 Report
+
+A detailed [REPORT](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/) can be read to understand our algorithm.
+
+
 ## 📦 Conclusion
 
 A temporal attention (TA) network was created to calculate the visual odometry of the most recent frame using a set of previous frames.
