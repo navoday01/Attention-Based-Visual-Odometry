@@ -60,12 +60,12 @@ python3 test.py
 | **Scene** |   **SCoRe Forest**    |  **DSAC**  |  **VLocNet++**  |  **NNnet**  |  **PoseNet2**  |  **Ours**  |
 |--------|------------------|----------------------------|------------ |----------|-------------|-------------|
 |  Chess |  0.03m, **0.66°**     |     0.03m, **0.66°**       |    **0.0018m**, 1.17°    |   0.13m, 6.66°  |  0.13m, 4.48°    | 0.01m, 3.35° |
-|  Fire  |  Resnet20RMSprop |     [64,128,192,256]       |    RMSProp  |   4.47M  |  89.13%     | [LINK](https://github.com/navoday01/ResNet5M-CIFAR10/blob/main/models/weights/ResnetRMSProp.pt)                    |
-|  Heads |  Resnet20Adam    |     [64,128,192,256]       |    Adam     |   4.47M  |  93.05%     |  -          |
-| Office |  Resnet18Adam    |     [64, 128, 232, 268]    |    Adam     |   4.99M  |  81.03%     |  [LINK](https://github.com/navoday01/ResNet5M-CIFAR10/blob/main/models/weights/Resnet18Adam.pt)                   |
-| Pumpkin|  **Resnet18SGD**     |     **[64, 128, 232, 268]**    |    **SGD+M**   |   **4.99M**  |  **95.55%**     | [**LINK**](https://github.com/navoday01/ResNet5M-CIFAR10/blob/main/models/weights/Resnet18SGD.pt)                     |
-|RedKitchen|  Resnet18Bn      |     [64, 118, 178, 256]    |    SGD+M    |   4.99M  |  91.97%     |  [LINK](https://github.com/navoday01/ResNet5M-CIFAR10/blob/main/models/weights/ResnetBn.pt)                   |
-|  Stairs  |  Resnet18Bn      |     [64, 118, 178, 256]    |    SGD+M    |   4.99M  |  91.97%     |  [LINK](https://github.com/navoday01/ResNet5M-CIFAR10/blob/main/models/weights/ResnetBn.pt)                   |
+|  Fire  |  0.05m, 1.50° |     0.04m, 1.50°       |    **0.009m**, **0.61°**  |   0.26m, 12.72°  |  0.27m, 11.28°    | 0.013m, 2.55°    |
+|  Heads |  0.06m, 5.50°    |     0.03m, 2.70°       |    **0.008m**, **0.60°**     |  0.14m, 12.34°  |  93.05%     |  -          |
+| Office |  0.04m, 0.78°    |     0.04m, 1.60°    |    0.016m, 0.78°     |   0.21m, 7.35°  |  81.03%     |  [LINK](https://github.com/navoday01/ResNet5M-CIFAR10/blob/main/models/weights/Resnet18Adam.pt)                   |
+| Pumpkin|  0.04m, **0.68°**   |     0.05m, 2.00°   |    0.009m, 0.82°   |   **4.99M**  |  **95.55%**     | [**LINK**](https://github.com/navoday01/ResNet5M-CIFAR10/blob/main/models/weights/Resnet18SGD.pt)                     |
+|RedKitchen|  0.04m, **0.76°**      |     0.05m, 2.00°    |    **0.0017m**, 0.93°   |   4.99M  |  91.97%     |  [LINK](https://github.com/navoday01/ResNet5M-CIFAR10/blob/main/models/weights/ResnetBn.pt)                   |
+|  Stairs  |  0.32m, 1.32°      |     1.17m, 33.1°    |   **0.010m**, **0.48°**   |   4.99M  |  91.97%     |  [LINK](https://github.com/navoday01/ResNet5M-CIFAR10/blob/main/models/weights/ResnetBn.pt)                   |
 
 ## 📦 Conclusion
 
