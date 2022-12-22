@@ -72,7 +72,7 @@ The losses get generated using Tensorboard.
  :--:
   *Losses* 
 
-Trajectory can be plotted using the .csv file, the plotting graphs are easy to generate using matplotlib and pandas from the .csv file hence the plotting codes are **not provided**.
+Trajectory can be plotted using the .csv file, the plotting graphs are easy to generate using matplotlib and pandas from the .csv file, hence the plotting codes are **not provided**.
 ![Alt text](assets/Trajectory.png)
  :--:
   *Trajectory* 
