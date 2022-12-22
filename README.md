@@ -48,6 +48,7 @@ example: python3 training.py /7scenes heads
 ```shell
 python3 test.py <Path to 7Scenes dataset folder> <Scene for Testing>
 ```
+example: python3 test.py /7scenes heads
 
 
 ## 📊 Results
