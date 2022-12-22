@@ -36,13 +36,13 @@ tensorboard --logdir runs/
 ```
 
 ## ⏳ Training
-Run train script `training.py` to recreate similar model
+Run train script `training.py` to recreate similar model.
 ```shell
 python3 training.py
 ```
 ## 🖼 Testing
 
- To Reproduce the accuracy of the model, run `test.py` and **ensure the model is on the right folder and change the path in the file.** This script will normalise the images to right value.
+ To test the model, run `test.py` and the predicited camera poses along with the actual camera poses get saved as a .csv file.
 ```shell
 python3 test.py
 ```
