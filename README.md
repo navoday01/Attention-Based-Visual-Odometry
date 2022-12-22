@@ -28,27 +28,18 @@ pip3 install torch torchvision torchaudio torchinfo tensorboard
 ```shell
 git clone https://github.com/navoday01/ResNet5M-CIFAR10.git
 ```
-3. Change directory into folder
-```shell
-cd ResNet5M-CIFAR10
-```
 
-
-## 🏁 Quick Start: using Google Colab
-
-To run a demo file go to following google collab link: [test model](https://colab.research.google.com/github/navoday01/ResNet5M-CIFAR10/blob/main/ResnetQuickTest.ipynb)
+## 🏁 Tenserboard
 
 ## ⏳ Training
-Run train script `ResNetTrain.py` to recreate similar model
+Run train script `Train.py` to recreate similar model
 ```shell
-cd models
 python3 ResNetTrain.py
 ```
 ## 🖼 Testing
 
- To Reproduce the accuracy of the model, run `FinalTesting.py` and **ensure the model is on the right folder and change the path in the file.** This script will normalise the images to right value.
+ To Reproduce the accuracy of the model, run `Test.py` and **ensure the model is on the right folder and change the path in the file.** This script will normalise the images to right value.
 ```shell
-cd models
 python3 FinalTesting.py
 ```
 
@@ -71,8 +62,12 @@ python3 FinalTesting.py
 
 ## 📦 Conclusion
 
-The final model under 5 Million parameters and employing SGD achieved an accuracy of 95.55% on the CIFAR-10 test data set by systematically adjusting the hyperpameters and optimizers.
+A temporal attention (TA) network was created to calculate the visual odometry of the most recent frame using a set of previous frames.
+
+A new dataset called the NYU sparse dataset was created for testing the performance of a visual odometry algorithm in sparse feature environments. The network being tested showed promising results on this dataset and a separate dataset as well. The model's robust performance can be attributed to the fact that the Depth Maps are not being computed but metric Depth Map are taken directly from the dataset, doing this eliminates the scale requirement as it is already encoded in the Depth Map. 
+
+The intent of this project was to create a TA network which was accomplished, further training and testing was conducted on a dataset used in VO benchmarks. Our other goal was to test the model against other state of the art algorithms, to see where it stands. Additionally, the last deliverable was to create a sparse featureless dataset which was also accomplished successfully.
 
 ## 👩‍⚖️ Acknowledgement
 
-We would like to thank everyone whose comments and suggestions helped us with the project. We appreciate the constant assistance of Professors Chinmay Hegde, Arsalan Mosenia, and the teaching assistant Teal Witter. Last but not least, we would like to express our sincere gratitude to the teaching staff for providing us with the chance to complete these tasks and projects. They were highly beneficial and relevant to comprehending the ideas.
+We express our gratitude to the all the authors, who have worked hard to engineer such effective solutions for visual odometry. We would like to thank everyone whose comments and suggestions helped us with the project. We express our sincere gratitude to Professors Chinmay Hegde, Arsalan Mosenia, and the teaching assistant Teal Witter. 
