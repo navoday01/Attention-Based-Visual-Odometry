@@ -132,7 +132,7 @@ def test(model,test_loader):
 
     
     df = pd.DataFrame({'pred_x':pred_traj_x, 'pred_y':pred_traj_y, 'pred_z':pred_traj_z, 'true_x':target_traj_x, 'true_y':target_traj_y, 'true_z':target_traj_z})
-    df.to_csv('traj.csv', index = False)
+    df.to_csv(str(scene)+'.csv', index = False)
     return sum(l)/len(l), sum(lt)/len(lt), sum(la)/len(la)
 
 
