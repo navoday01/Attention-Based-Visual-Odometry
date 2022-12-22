@@ -49,7 +49,7 @@ python3 test.py
 
 
 ## 📊 Results
-| Sr. No.|    Model Name    |  # Conv Channels at layer  |  Optimizer  |  Params  |  Test Acc  |  File Link  |
+| Scene |    Model Name    |  # Conv Channels at layer  |  Optimizer  |  Params  |  Test Acc  |  File Link  |
 |--------|------------------|----------------------------|------------ |----------|-------------|-------------|
 |   1    |  Resnet20SGD     |     [64,128,192,256]       |    SGD+M    |   4.47M  |  93.32%     | [LINK](https://github.com/navoday01/ResNet5M-CIFAR10/blob/main/models/weights/Resnet20SGD.pt)            |
 |   2    |  Resnet20AdaGrad |     [64,128,192,256]       |    Adagrad  |   4.47M  |  90.55%     | -            |
