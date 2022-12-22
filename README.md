@@ -54,6 +54,9 @@ python3 test.py
  :--:
   *Losses* 
 
+![Alt text](assets/Trajectory.png)
+ :--:
+  *Trajectory* 
 
 
 
